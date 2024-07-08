@@ -1,1 +1,39 @@
-<p>contact works!</p>
+<h1>Formulaire de contact</h1>
+
+<form action="contact" method="post">
+    <ul>
+        <li>
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="user_name">
+        </li>
+        <li>
+            <label for="firstname">Prénom</label>
+            <input type="text" id="firstname" name="user_firstname">
+        </li>
+        <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="user_email">
+        </li>
+
+        <li>
+            <label for="phone">Téléphone</label>
+            <input type="tel" id="phone" name="user_phone">
+        </li>
+
+        <li>
+            <label for="file">Joindre un fichier</label>
+            <button type="submit">Choisir un fichier</button>
+        </li>
+
+        <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="user_message"></textarea>
+        </li>
+
+        <li class="button">
+            <button type="submit">Envoyer le message</button>
+        </li>
+    </ul>
+
+
+</form>
