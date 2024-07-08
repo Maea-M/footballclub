@@ -1,0 +1,30 @@
+/* Reset Style*/
+* {
+    box-sizing:border-box; 
+    outline:none;
+    margin:0;
+    padding:0;
+}
+
+ul {
+    list-style:none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/** Basic styles **/
+* {
+    font-family: "Dela Gothic One", "Montserrat", Arial, Helvetica, sans-serif;
+    background-color: #000d08;
+    color: #f8f8f8;
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    color: #A5D81F;
+    text-transform: uppercase;
+    text-align: center;
+}
