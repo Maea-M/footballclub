@@ -3,16 +3,37 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #353536;
+    width: 75%;
+    margin: auto;
+    border: #A5D81F 0.5px solid;
+}
+
+h1{
+    background-color: #353536;
+    margin-bottom: 25px;
+    margin-top: 50px;
 }
 
 form{
-    background-color: #353536;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 50%;
     height: 100%;
     gap: 20px;
+    margin: 50px;
+    padding: 10px;
+    background-color: #353536;
+}
+
+input {
+    display: flex;
+    width: 75%;
+    background-color: #000d08;
+    width: 100%;
+    height:40px;
+    border: #000d08;
 }
 
 button{
@@ -20,20 +41,45 @@ button{
     height:35px;
     font-size: 12px;
     background-color:#A5D81F;
+    border: #A5D81F;
     color: #000d08;
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
-    margin: 10px;
     justify-content: center;
     text-align: center;
+    margin: auto;
 }
 
-.button {
-    text-transform: uppercase;
+ul {
+    display: flex;
+    flex-direction: row;
 }
 
 li {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    background-color:#353536;
+    padding-right: 10px;
+}
+
+label{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color:#353536;
+
+}
+
+textarea{
+    width: 100%;
+    height: 200px;
+    background-color:#000d08;
+    border: #000d08;
+}
+
+div.button{
+    background-color:#353536;
+    display: flex;
 }
