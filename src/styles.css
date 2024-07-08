@@ -17,7 +17,7 @@ a {
 /** Basic styles **/
 * {
     font-family: "Dela Gothic One", "Montserrat", Arial, Helvetica, sans-serif;
-    background-color: #000d08;
+    background-color: rgb(51, 48, 48);
     color: #f8f8f8;
     width: 100%;
 }
